@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.background-svg {
+    position: absolute;
+    width: 1535px;
+    top: -15%;
+}
+
+h2 {
+    position: relative;
+    top: 5%;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: hsla(223, 47%, 23%, 1);
+    line-height: 42px;
+}
+
+.main-p {
+    position: relative;
+    width: 450px;
+    top: 9%;
+    color: hsla(224, 34%, 33%, 1);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+
+
+span {
+    position: relative;
+    top: 17%;
+    left: -26.5%;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsla(224, 23%, 55%, 1);
+    line-height: 21.17px;
+}
+
+a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background: hsla(0,0%,100%,1);
+    position: absolute;
+    top: 5%;
+    width: 458px;
+    height: 658px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 25px 2px rgba(0, 0, 0, 0.25);
+}
+
+.hero-svg {
+    width: 458px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.price-plan-box {
+    background: hsla(230, 75%, 98%, 1);
+    width: 354px;
+    height: 97px;
+    border-radius: 10px;
+    position: relative;
+    top: 13%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.music-svg {
+    position: relative;
+    left: -5%;
+}
+
+.p-bold {
+    color: hsla(223, 47%, 23%, 1);
+    position: relative;
+    top: -10%;
+    font-style: normal;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.change:hover {
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    background: hsla(245, 75%, 52%,1);
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 355px;
+    border: none;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 40px 5px rgba(56, 42, 225, 0.25);
+}
+
+.button:hover{
+    background: hsl(245, 100%, 61%);
+}
+
+.button-p {
+    font-weight: 600;
+}
+
+.cancel {
+    cursor: pointer;
+    position: relative;
+    top: 30%;
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 16px;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 376px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .box {
+        width: 286px;
+        position: absolute;
+        top: 10%;
+        left: 12%;
+    }
+
+    .hero-svg{
+        width: 286px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .main-p{
+        position: relative;
+        left: 5%;
+        top: 7%;
+        width: 260px;
+    }
+
+    .price-plan-box {
+        position: relative;
+        left: 5%;
+        width: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .music-svg {
+        position: relative;
+        left: 5%;
+    }
+
+    .p-bold {
+        color: hsla(223, 47%, 23%, 1);
+        position: relative;
+        left: 10%;
+        font-style: normal;
+        line-height: 21px;
+        font-weight: 700;
+    }
+
+    span {
+        position: relative;
+        top: 27%;
+        left: -17.5%;
+        font-weight: 400;
+        font-size: 16px;
+        color: hsla(224, 23%, 55%, 1);
+        line-height: 21.17px;
+    }
+
+    .change {
+        position: relative;
+        left: -7%;
+    }
+
+    .button {
+        background: hsla(245, 75%, 52%,1);
+        position: absolute;
+        top: 70%;
+        left: 5%;
+        width: 260px;
+        border: none;
+        display: flex;
+        justify-content: center; 
+        text-align: center;
+        padding: 1rem;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0px 4px 40px 5px rgba(56, 42, 225, 0.25);
+    }
+
+    .background-svg {
+        visibility: hidden;
+    }
+
+    .attribution {
+        visibility: hidden;
+    }
+
+}    
